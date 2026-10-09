@@ -1,0 +1,8 @@
+// eve-ime-fix 的 exe 资源，也只有程序图标这一个。
+//
+// 托盘图标走的是另一条路：`include_bytes!` 内嵌 .ico，运行时自己解析后交给
+// `CreateIconFromResourceEx`（见 src/tray.rs）。那是运行时解析，喂不了 PE 资源表，
+// 所以 exe 图标必须过一遍资源编译器，见 build.rs。
+//
+// ID 用 1：Windows 取编号最小的图标作为 exe 的默认图标。
+1 ICON "assets/icon.ico"

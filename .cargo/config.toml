@@ -1,0 +1,3 @@
+# 静态链接 CRT：产物不依赖 vcruntime140.dll / msvcp140.dll，单文件即可分发。
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "target-feature=+crt-static"]
