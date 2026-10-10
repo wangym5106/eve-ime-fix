@@ -4,7 +4,7 @@
 
 本工具不注入代码、不读写目标进程内存、不模拟键盘或鼠标输入、不修改任何游戏文件、不参与游戏逻辑、不读取游戏数据。
 
-用法：运行 `eve-ime-fix.exe` 即可。程序启动后在后台常驻并在通知区域显示托盘图标。
+用法：运行 [eve-ime-fix.exe](https://github.com/wangym5106/eve-ime-fix/releases/latest/download/eve-ime-fix.exe) 即可。程序启动后在后台常驻并在通知区域显示托盘图标。
 
 诊断：运行日志位于 `%LOCALAPPDATA%\eve-ime-fix\eve-ime-fix.log`。
 
